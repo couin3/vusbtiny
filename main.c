@@ -32,7 +32,7 @@
 
   **** fuse setting, 
   **** this will blow reset fuse, u will need to use HV programmer to recover if u mess up
-  avrdude -c usbtiny -p t85 -V -U lfuse:w:0xe1:m -U hfuse:w:0x5c:m -U efuse:w:0xff:m 
+  avrdude -c usbtiny -p t45 -V -U lfuse:w:0xe1:m -U hfuse:w:0x5d:m -U efuse:w:0xff:m 
  */
 
 #include <avr/io.h>
