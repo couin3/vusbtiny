@@ -324,7 +324,7 @@ clean:
 	
 
 # high and low fuse values
-FUSE_H=0x5d
+FUSE_H=0x5c
 FUSE_L=0xe1
 
 # change fuse values of the device
